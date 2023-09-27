@@ -1,0 +1,51 @@
+{
+  "estoque": {
+    "disponibilidade": [
+      {
+        "id": 1,
+        "disponibilidade-estoque": [
+          {
+            "sku": 10000,
+            "disponibilidade": true,
+            "tempo-expedicao": 2
+          },
+          {
+            "sku": 50000,
+            "disponibilidade": false,
+            "tempo-expedicao": null
+          },
+          {
+            "sku": 65000,
+            "disponibilidade": true,
+            "tempo-expedicao": 10
+          }
+        ],
+        "tempo-resposta": 0.01,
+        "mensagem": null
+      }
+    ]
+  },
+  "disponibilidade": [
+    {
+      "disponibilidade-estoque": [
+        {
+          "sku": 10000,
+          "disponibilidade": true,
+          "tempo-expedicao": 2
+        },
+        {
+          "sku": 50000,
+          "disponibilidade": false,
+          "tempo-expedicao": null
+        },
+        {
+          "sku": 65000,
+          "disponibilidade": true,
+          "tempo-expedicao": 10
+        }
+      ],
+      "tempo-resposta": 0.01,
+      "mensagem": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          estoque:
+            url: http://localhost:3000
+            connectTimeout: 5
+            readTimeout: 5
+            loggerLevel: full
+            errorDecoder: com.example.frete.handler.StandardError
+          freteCusto:
+            url: http://localhost:3000
+            connectTimeout: 5
+            readTimeout: 5
+            loggerLevel: full
+            errorDecoder: com.example.frete.handler.StandardError
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics"
